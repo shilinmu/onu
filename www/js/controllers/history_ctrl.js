@@ -27,6 +27,12 @@ angular.module('starter.controllers')
 	    	alert(item.id);
 	    }
 
+	    $scope.type = 1;
+
+	    $scope.filterType = function(type){
+	    	$scope.type = type;
+	    }
+
 
 
 

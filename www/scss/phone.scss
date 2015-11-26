@@ -1,8 +1,10 @@
+/* Empty. Add your own CSS if you like */
 
 $mColor:#c5d7ea;
 
 *{
 	font-family : 'Microsoft Yahei' !important;
+	font-size : 0.8em;
 }
 
 #loginContent{
@@ -16,7 +18,7 @@ $mColor:#c5d7ea;
 #loginContent .loginBtn{
 	border-radius: 5px;
 	font-weight: bold;
-}
+} 
 
 #checkTab .item-note > span {
 	width : 50px;
@@ -33,24 +35,21 @@ $mColor:#c5d7ea;
 	padding-left : 5px;
 }
 
-#historyTab .item-checkbox > span.name{
+#historyTab .reportItem  span.name{
 	display : inline-block;
-	width : 60%;
+	width : 70%;
 	overflow : hidden;
-	padding-left : 5%;
 }
 
-#historyTab .item-checkbox > span.name > span{
+#historyTab .reportItem  span.name > span{
 	padding-left : 20px;
 }
 
-#historyTab .item-checkbox > span.date{
+#historyTab .reportItem  span.date{
 	display : inline-block;
-	width : 40%;
-}
-
-#historyTab .item-checkbox > label.checkbox > input {
-	display :none;
+	width : 30%;
+	overflow : hidden;
+	padding-left : 20px;
 }
 
 .red{
@@ -60,4 +59,41 @@ $mColor:#c5d7ea;
 .button-block-half{
 	width : 50%;
 	margin : 0 25%;
+}
+
+
+#SharePopover i{
+	font-size : 2em;
+	height : 20px;
+}
+
+#SharePopover {
+	height : 100px !important;
+}
+
+
+#SharePopover ion-item{
+	padding-left : 50px;
+}
+
+#SharePopover ion-item span{
+	position : relative;
+	top : -5px;
+	left : 5px;
+}
+
+.check-spinner{
+	position: absolute;
+	display : inline-block;
+	width : 100%;
+	text-align: center;
+	left : 0;
+
+}
+
+.check-spinner span.text{
+
+	position : relative;
+	top : -8px;
+	left : 10px;
 }

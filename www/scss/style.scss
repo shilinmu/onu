@@ -34,6 +34,10 @@ $mColor:#c5d7ea;
 	padding-left : 5px;
 }
 
+#historyTab .reportItem{
+	border-top : none;
+}
+
 #historyTab .reportItem  span.name{
 	display : inline-block;
 	width : 70%;
@@ -91,7 +95,6 @@ $mColor:#c5d7ea;
 }
 
 .check-spinner span.text{
-
 	position : relative;
 	top : -8px;
 	left : 10px;
